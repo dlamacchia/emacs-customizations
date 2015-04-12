@@ -34,6 +34,8 @@
   (c-set-offset 'brace-list-close '0)
   (c-set-offset 'brace-list-intro '+)
   (c-set-offset 'arglist-close '0)
+  (c-set-offset 'topmost-intro-cont '0)
+  (c-set-offset 'statement-cont '0)
   ; brackets should be at same indentation level as the statements they open
   (c-set-offset 'substatement-open '0)
   (c-set-offset 'inline-open '+)
@@ -42,6 +44,7 @@
   (c-set-offset 'brace-list-open '+)
   ; indent case labels by c-indent-level, too
   (c-set-offset 'case-label '+)
+  (c-set-offset 'objc-method-call-cont '0)
   (c-set-offset 'arglist-cont-nonempty '0)
 
   ;; Fix override of tab switch keybinding
